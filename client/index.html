@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = 'kjAp'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kwame Johnson, M.D | Software Engineer</title>
+
+    <meta name="description" content="kwamejohnson.com">
+
+
+<!-- ===============JQuery files================= -->
+<script src="js/jquery-1.10.2.js" charset="utf-8"></script>
+<script src="js/jquery.min.js" charset="utf-8"></script>
+<script src="js/jquery-ui.min.js" charset="utf-8"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          })
+      </script>
+
+<!-- ===============CSS files================= -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/Portfolio.css">
+
+<!-- ===============Angular files================= -->
+    <script src="bower_components/angular/angular.js" charset="utf-8"></script>
+    <script src="bower_components/angular-route/angular-route.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/projectTechController.js" charset="utf-8"></script>
+    <script src="js/codingBucketlistController.js" charset="utf-8"></script>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script> -->
+
+<!-- ===============Other JS files================= -->
+    <script src="js/kj.js" charset="utf-8"></script>
+<!-- ========================================= -->
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_Dvcj81EyqDpI4u8DYMfoG");
+   })();
+</script>
+
+  </head>
+
+
+    <body>
+      <!-- ===============Header Section================= -->
+
+    	<header class="header">
+
+          		<div class="container">
+
+          			<div class="row" >
+
+                      <div class="col-md-3 col-sm-2"></div>
+
+                      <!-- ===============Header Image================= -->
+                      <div class="col-xs-4 col-md-1 col-sm-2 centerK" >
+                            <img onClick="history.go(0)" src="images/headshot2.png" style="width: 100%" align="right">
+                      </div>
+
+                      <!-- ===============Header Text================= -->
+                      <div onClick="history.go(0)" id="header" class="col-xs-8 col-md-8 col-sm-8 centerK">
+                        <ul >
+            							<li><h3 style="text-align: left" onClick="history.go(0)">Kwame Johnson, M.D.</h3></li>
+                          <li><h3 onClick="history.go(0)">Software Engineer</h3></li>
+            							<li><h4 onClick="history.go(0)">life at the <b><u>intersection</u></b> of <b>bio-medicine</b> &amp <b>software</b></h4></li>
+            						</ul>
+                      </div>
+
+          			</div>
+
+          	  </div>
+
+    	</header>
+
+      <!-- ===============END Header Section================= -->
+
+      <!-- ===============Main Section================= -->
+
+    	<div class="main">
+    		  <div class="container-fluid">
+
+               <div class="row">
+
+                    <div class="col-sm-2 col-md-3"></div>
+
+                    <div class="col-xs-12 col-sm-8 col-md-6">
+
+                      <!-- ===============Intersecting Circles Section================= -->
+
+                      <div class="venn">
+                          <video width="85%" height="85%" autoplay loop>
+                            <source src="images/venn.mov" type="video/mp4">
+                          </video>
+                      </div>
+
+                    </div>
+
+                    <div class="col-sm-2 col-md-3"></div>
+              </div>
+
+              <!-- ===============Career Highlights Section================= -->
+                      <div class="careerHighlights" style="display: none">
+                        <div class="row">
+                          <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                          <!-- ===============Microsoft================= -->
+                          <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 dots msLEAPDot">
+                                <svg width="100%" height="65px" viewBox="0 0 60% 60%">
+                                      <circle cx="5%" cy="50%" class="nodeActual" r="2%"  fill="#BABCC1" />
+                                      <image xlink:href="images/mslogo.png" x="-12%" y="20%" height="50%" width="50%"/>
+                                      <text x="15%" y="50%" fill="#AFAAAA" text-anchor="right" dy=".3em" dx='1em'>Microsoft</text>
+
+                                      <text font-size=".8em" class="msLEAP" style="display: none" x="19.5%" y="50%" fill="#AFAAAA" dy="1.8em">Nov '16 - Present</text>
+                                </svg>
+
+                                <h4 class="msLEAP" style="display: none; margin-left: 15%; padding: 0px"> Software Engineer Apprentice <a href="http://www.industryexplorers.com" target="_blank">(LEAP Program)</a></h4>
+                                <h6 class="msLEAP" style="display: none; margin-left: 15%; padding: 0px">• the LEAP Engineering Acceleration Program (LEAP) is a selective, immersive, 16-week diversity program that provides participants with real-world development experience at Microsoft</h6>
+                                <h6 class="msLEAP" style="display: none; margin-left: 15%; padding: 0px">• the program combines traditional classroom learning with hands-on projects. Microsoft strives to be a company that seeks and supports diverse perspectives while fostering a culture of inclusion and mutual respect for talented engineers of all backgrounds</h6>
+                                <h6 class="msLEAP" style="display: none; margin-left: 15%; padding: 0px">• selected as 1 of 22 participants from almost 400 applicants nationally</h6>
+                          </div>
+                          <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                      </div>
+
+                      <!-- ===============Coding Dojo================= -->
+                      <div class="row">
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 dots CodingDojoDot">
+                                <svg width="100%" height="65px">
+                                      <circle cx="5%" cy="50%" class="nodeActual" r="2%"  fill="#BABCC1" />
+                                      <image xlink:href="images/codingdojologo.png" x="-12%" y="20" height="50%" width="50%"/>
+                                      <text x="15%" y="50%" fill="#AFAAAA" text-anchor="right" dy=".3em" dx='1em'>Coding Dojo</text>
+                                      <text font-size=".8em" class="CodingDojo" style="display: none" x="19.5%" y="50%" fill="#AFAAAA" dy="1.8em">Apr '16 - Aug '16'</text>
+                                </svg>
+
+                                <h4 class="CodingDojo" style="display: none; margin-left: 15%; padding: 0px"><a href="http://www.codingdojo.com" target="_blank">Full-Stack Web Development Bootcamp </a>Student</h4>
+                                <h6 class="CodingDojo" style="display: none; margin-left: 15%; padding: 0px">• over 14 weeks, learnt the fundamentals of full-stack web development using 3 Stacks: Python/Django, Ruby/Rails and JavaScript/MEAN
+                                <h6 class="CodingDojo" style="display: none; margin-left: 15%; padding: 0px">• <u>Coding Dojo Impact Scholarship Grand Prize (~$14,000):</u></h6>
+                                <h6 class="CodingDojo" style="display: none; margin-left: 15%; padding: 0px">The Impact Scholarship is intended for aspiring developers who want to learn coding to inspire significant change in their own lives or the lives of others. This highly competitive scholarship is provided to one student in each cohort</h6>
+                                <h6 class="CodingDojo" style="display: none; margin-left: 15%; padding: 0px">• Coding Dojo provides rigorous, comprehensive full-stack development training programs to meet the career goals of both aspiring developers and industry veterans using the industry’s most in-demand web and mobile development languages: Ruby on Rails, LAMP, MEAN, Python and Swift/iOS. </h6>
+                        </div>
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                      </div>
+
+                      <!-- ===============Palio================= -->
+                      <div style="margin-left: 0px; margin-right:0px" class="row">
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 dots palioDot">
+                              <svg width="100%" height="65px" viewBox="0 0 60% 60%">
+                                    <circle cx="5%" cy="50%" class="nodeActual" r="2%"  fill="#BABCC1" />
+                                    <image xlink:href="images/palio.png" x="-12%" y="20%" height="50%" width="50%"/>
+                                    <text x="15%" y="50%" fill="#AFAAAA" text-anchor="right" dy=".3em" dx='1em'>Palio/Inventiv Health</text>
+
+                                    <text font-size=".8em" class="palio" style="display: none" x="19.5%" y="50%" fill="#AFAAAA" dy="1.8em">Oct '15' - Apr '16'</text>
+                              </svg>
+
+                              <h4 class="palio" style="display: none; margin-left: 15%; padding: 0px">Medical Editor</h4>
+                              <h6 class="palio" style="display: none; margin-left: 15%; padding: 0px">• applied a meticulous attention to detail and a high level of proficiency in AMA style and FDA guidelines to various medical editing assignments to ensure that all work was compliant and of the absolute highest standards for grammar, spelling, punctuation, structure, style, tone, etc</h6>
+
+
+                        </div>
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                      </div>
+
+                      <!-- ===============AJE================= -->
+                      <div class="row">
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 dots ajeDot">
+                                <svg width="100%" height="65px">
+                                      <circle cx="5%" cy="50%" class="nodeActual" r="2%"  fill="#BABCC1" />
+                                      <image xlink:href="images/aje.png" x="-12%" y="20" height="50%" width="50%"/>
+                                      <text x="15%" y="50%" fill="#AFAAAA" text-anchor="right" dy=".3em" dx='1em'>American Journal Experts/Research Square</text>
+                                      <text font-size=".8em" class="aje" style="display: none" x="19.5%" y="50%" fill="#AFAAAA" dy="1.8em">Aug '09 - Oct '15</text>
+                                </svg>
+
+                                <h4 class="aje" style="display: none; margin-left: 15%; padding: 0px">Bio-medical/Clinical Editor</h4>
+                                <h6 class="aje" style="display: none; margin-left: 15%; padding: 0px">•	performed editing and quality assurance on 11,000+ academic manuscripts at various stages of the publication process, while providing critical evaluation and analysis of the biomedical literature to provide actionable recommendations to help scientists and doctors maximize the clarity, accuracy, and conciseness of their academic manuscripts</h6>
+                                <h6 class="aje" style="display: none; margin-left: 15%; padding: 0px">
+                                •	provided leadership to almost 50 contract editors, including training, mentoring, and managing them in all aspects of the position</h6>
+                                <h6 class="aje" style="display: none; margin-left: 15%; padding: 0px">
+                                •	<u>Above and Beyond Award:</u> this award recognizes above-and-beyond effort and exemplary team contributions in a role (nominated by colleagues and selected by the CEO)</h6>
+                        </div>
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                      </div>
+
+                      <!-- ===============Duke Med================= -->
+                      <div class="row">
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 dots dukeDot">
+                                <svg width="100%" height="65px">
+                                      <circle cx="5%" cy="50%" class="nodeActual" r="2%"  fill="#BABCC1" />
+                                      <image xlink:href="images/duke.png" x="-12%" y="20" height="50%" width="50%"/>
+                                      <text x="15%" y="50%" fill="#AFAAAA" text-anchor="right" dy=".3em" dx='1em'>Duke University School of Medicine</text>
+                                      <text font-size=".8em" class="aje" style="display: none" x="19.5%" y="50%" fill="#AFAAAA" dy="1.8em">Aug '03 - May '08'</text>
+                                </svg>
+
+                                <h4 class="duke" style="display: none; margin-left: 15%; padding: 0px">Medical Student (Doctor of Medicine)</h4>
+                                <h6 class="duke" style="display: none; margin-left: 15%; padding: 0px">•	graduated with an MD from one of the most-selective medical schools in the world, while earning honors and high-pass grades in almost every course</h6>
+                                <h6 class="duke" style="display: none; margin-left: 15%; padding: 0px">
+                                •	Co-president of the Duke SNMA (Student National Medical Association); lead the organization to a Student Organization of the Year Award</h6>
+                                <h6 class="duke" style="display: none; margin-left: 15%; padding: 0px">• Healthcare/Life Science Track Lead of the Duke StartUp Week Business Plan/Elevator Pitch Competition</h6>
+                                <h6 class="duke" style="display: none; margin-left: 15%; padding: 0px">• $25K Hyperbaric Center Scholarship for Research on Oxidative Stress</h6>
+                        </div>
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                      </div>
+
+                      <!-- ===============Morehouse================= -->
+                        <div class="row">
+                          <div class="col-md-3 col-sm-2 col-lg-4"></div>
+
+                        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 dots morehouseDot">
+                                <svg width="100%" height="65px">
+                                      <circle cx="5%" cy="50%" class="nodeActual" r="2%"  fill="#BABCC1" />
+                                      <image xlink:href="images/morehouse.png" x="-12%" y="20" height="50%" width="50%"/>
+                                      <text x="15%" y="50%" fill="#AFAAAA" text-anchor="right" dy=".3em" dx='1em'>Morehouse College</text>
+                                      <text font-size=".8em" class="morehouse" style="display: none" x="19.5%" y="50%" fill="#AFAAAA" dy="1.8em">Aug '98 - Dec '02'</text>
+                                </svg>
+
+                                <h4 class="morehouse" style="display: none; margin-left: 15%; padding: 0px">Undergraduate Student</h4>
+                                <h6 class="morehouse" style="display: none; margin-left: 15%; padding: 0px">• graduated with a BS in Biology/Pre-Med with a concentration in Neuroscience</h6>
+                                <h6 class="morehouse" style="display: none; margin-left: 15%; padding: 0px">
+                                •	conducted neuroscience research at Duke University, University of Pittsburgh, University of Manchester, and Emory University</h6>
+                                <h6 class="morehouse" style="display: none; margin-left: 15%; padding: 0px">• Full Academic Presidential Scholarship</h6>
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-2 col-lg-4"></div>
+                      </div>
+
+                      </div>
+
+    					  	</div>
+
+                  <!-- ===============Connect Section================= -->
+    					  	<div class="connect" style="display: none">
+
+    				  			      <ul>
+        						      	<li><a href="https://github.com/kwamejohnson" target="_blank"><button type="button" class="btn btn-primary btn-round githubButton"><img src="images/github1.png" style="width: 75%"></button><p>GitHub</p></a></li>
+        						        <li><a href="https://www.linkedin.com/in/kwamejohnson19/" target="_blank"><button type="button" class="btn btn-primary linkedinButton"><img src="images/linkedin1.png" style="width: 75%"></button><p>LinkedIn</p></a></li>
+                            <li><a href="#"><button type="button" class="btn btn-primary email"><img src="images/email.png" style="width: 75%"></button><p>Email</p></a></li>
+    				        	    </ul>
+                  </div>
+
+                  <!-- ===============Technologies Section================= -->
+
+                  <div class="technologies" style="display: none">
+                    <ul>
+                        <li><button type="button" class="btn btn-primary btn-round languagesButton"><img src="images/languages.png" style="width: 75px"></button ><p>Languages</p></li>
+                                <div class="languages" style="display: none">
+                                  <ul>
+                                    <li><button style="height: 75px; width: 75px" type="button"><img src="images/js.png" style="width: 30px; padding-bottom: 10%"><p>JavaScript</p></button></li>
+                                    <li><button style="height: 75px; width: 75px" type="button"><img src="images/swift2.png" style="width: 30px; padding-bottom: 10%; padding-top: 7%"><p>Swift</p></button></li>
+                                    <li><button style="height: 75px; width: 75px" type="button"><img src="images/python.png" style="width: 30px; padding-bottom: 10%"><p>Python</p></button></li>
+                                    <li><button style="height: 75px; width: 75px" type="button"><img src="images/ruby.png" style="width: 30px; padding-bottom: 10%"><p>Ruby</p></button></li>
+                                    <li><button style="height: 75px; width: 75px" type="button"><img src="images/Csharp.png" style="width: 30px; padding-bottom: 10%"><p>C#</p></button></li>
+                                  </ul>
+                                  <p>____________________</p>
+
+                                  <br>
+                                </div>
+
+                        <li><button type="button" class="btn btn-primary btn-round frameworksButton"><img src="images/frameworks.png" style="width: 70px"></button><p>Frameworks/Libraries</p></li>
+
+                        <div class="frameworks" style="display: none">
+                          <ul>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/angular.png" style="width: 30px; padding-bottom: 10%"><p>Angular</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/express.png" style="width: 25px; padding-bottom: 0%"><p>Express</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/jquery.png" style="width: 30px; padding-bottom: 10%; padding-top: 10%"><p>JQuery</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/react.png" style="width: 30px; padding-bottom: 10%; padding-top: 10%"><p>React</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/backbone.png" style="width: 20px; padding-bottom: 10%; padding-top: 10%"><p>Backbone</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/bootstrap.png" style="width: 30px; padding-bottom: 10%"><p style="font-size: 12px">Bootstrap</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/django.png" style="width: 30px; padding-bottom: 10%"><p>Django</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/flask.png" style="width: 30px; padding-bottom: 10%; padding-top: 10%"><p>Flask</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/d3.png" style="width: 30px; padding-bottom: 10%; padding-top: 10%"><p>D3</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/rails.png" style="width: 30px; padding-bottom: 10%; padding-top: 10%"><p>Rails</p></button></li>
+                          </ul>
+                          <p>____________________</p>
+
+                          <br>
+
+                        </div>
+
+                        <li><button type="button" class="btn btn-primary btn-round databasesButton"><img src="images/database.png" style="width: 75px"></button><p>Databases</p></li>
+
+                        <div class="databases" style="display: none">
+                          <ul>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/mongodb.png" style="width: 30px; padding-bottom: 5%; padding-top:5%"><p>MongoDB</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/mysql.png" style="width: 40px; padding-bottom: 13%"><p>MySQL</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/sqlite.png" style="width: 30px; padding-bottom: 10%"><p style="font-size: 12px">SQLite</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/postgresql.png" style="width: 30px; padding-bottom: 8%; padding-top:8%"><p style="font-size: 12px; line-height:30%">Postgre</p><p>SQL</p></button></li>
+                          </ul>
+                          <p>____________________</p>
+                          <br>
+
+                        </div>
+
+                        <li><button type="button" class="btn btn-primary btn-round serversButton"><img src="images/server.png" style="width: 75px"></button><p>Servers/Deployment</p></li>
+
+                        <div class="servers" style="display: none">
+                          <ul>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/aws.png" style="width: 40px; padding-bottom: 10%; padding-top:10%"><p>AWS</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/nodejs.png" style="width: 30px; padding-bottom: 10%"><p>NodeJS</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/heroku.png" style="width: 30px; padding-bottom: 10%"><p style="font-size: 12px">Heroku</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/nginx.png" style="width: 30px; padding-bottom: 10%; padding-top:13%"><p style="font-size: 12px">Nginx</p></button></li>
+                            <li><button style="height: 75px; width: 75px" type="button"><img src="images/azure.png" style="width: 40px; padding-bottom: 14%; padding-top:10%"><p>Azure</p></button></li>
+
+                          </ul>
+                          <p>____________________</p>
+
+                          <br>
+
+                        </div>
+
+                    </ul>
+                  </div>
+
+                  <!-- ===============Bucketlist Section================= -->
+
+                  <div ng-controller="codingBucketlistController" class="bucketlist" style="display: none">
+                          <ul>
+        						      	<li><button type="button" class="btn btn-primary btn-round readButton"><img src="images/read.png" style="width: 75%"></button><p>Read</p></li>
+
+                            <div class="read" style="display:none">
+
+                            <div class="row">
+
+                              <div class="col-md-3"></div>
+
+                              <div class="col-sm-12 col-xs-12 col-md-6">
+
+
+                                <table class="table tablekj" style="margin: auto" border="1px solid #AFAAAA">
+                                  <tr>
+                                    <th style="text-align: center">Book</th>
+                                    <th style="text-align: center">Status</th>
+                                  </tr>
+                                  <tr ng-repeat="book in read">
+                                    <td>{{ book.title }}</td>
+                                    <!-- <td>{{ book.status }}</td> -->
+                                    <td><img ng-src="{{ book.status }}"></td>
+                                  </tr>
+
+                                </table>
+                                <br>
+                                <br>
+                              </div>
+
+                              <div class="col-md-3"></div>
+
+                            </div>
+
+                          </div>
+
+
+        						        <li><button type="button" class="btn btn-primary btn-round learnButton"><img src="images/learn.png" style="width: 75%"></button><p>Learn</p></li>
+
+                            <div class="learn" style="display:none">
+
+                            <div class="row">
+
+                              <div class="col-md-3"></div>
+
+                              <div class="col-sm-12 col-xs-12 col-md-6">
+
+
+                                <table class="table tablekj" style="margin: auto" border="1px solid #AFAAAA">
+                                  <tr>
+                                    <th style="text-align: center">Item</th>
+                                    <th style="text-align: center">Status</th>
+                                  </tr>
+                                  <tr ng-repeat="item in learn">
+                                    <td>{{ item.title }}</td>
+                                    <!-- <td>{{ book.status }}</td> -->
+                                    <td><img ng-src="{{ item.status }}"></td>
+                                  </tr>
+                                </table>
+                                <br>
+                                <br>
+                              </div>
+
+                              <div class="col-md-3"></div>
+
+                            </div>
+
+                          </div>
+
+        						        <li><button type="button" class="btn btn-primary btn-round goButton"><img src="images/go.png" style="width: 75%"></button><p>Go</p></li>
+
+                            <div class="go" style="display:none">
+
+                            <div class="row">
+
+                              <div class="col-md-3"></div>
+
+                              <div class="col-sm-12 col-xs-12 col-md-6">
+
+
+                                <table class="table tablekj" style="margin: auto" border="1px solid #AFAAAA">
+                                  <tr>
+                                    <th style="text-align: center">Event</th>
+                                    <th style="text-align: center">Status</th>
+                                  </tr>
+                                  <tr ng-repeat="event in go">
+                                    <td>{{ event.title }}</td>
+                                    <!-- <td>{{ book.status }}</td> -->
+                                    <td><img ng-src="{{ event.status }}"></td>
+                                  </tr>
+                                </table>
+                                <br>
+                                <br>
+                              </div>
+
+                              <div class="col-md-3"></div>
+
+                            </div>
+
+                          </div>
+
+                            <li><button type="button" class="btn btn-primary btn-round meetButton"><img src="images/meet.png" style="width: 75%"></button><p>Meet</p></li>
+
+                            <div class="meet" style="display:none">
+
+                            <div class="row">
+
+                              <div class="col-md-3"></div>
+
+                              <div class="col-sm-12 col-xs-12 col-md-6">
+
+
+                                <table class="table tablekj" style="margin: auto" border="1px solid #AFAAAA">
+                                  <tr>
+                                    <th style="text-align: center">Person</th>
+                                    <th style="text-align: center">Status</th>
+                                  </tr>
+                                  <tr ng-repeat="person in meet">
+                                    <td>{{ person.title }}</td>
+                                    <!-- <td>{{ book.status }}</td> -->
+                                    <td><img ng-src="{{ person.status }}"></td>
+                                  </tr>
+                                </table>
+                                <br>
+                                <br>
+                              </div>
+
+                              <div class="col-md-3"></div>
+
+                            </div>
+
+                          </div>
+        				          </ul>
+                </div>
+
+                <!-- ===============AboutMenu Section================= -->
+
+                <div class="aboutMenu" style="display: none">
+
+                  <ul>
+                      <li><button type="button" class="btn btn-primary btn-round careerHighsButton"><img src="images/career.png" style="width: 75%"></button><p>Career Highlights</p></li>
+                      <li><button type="button" class="btn btn-primary btn-round aboutMeButton"><img src="images/aboutMe.png" style="width: 75%"></button><p>About me</p></li>
+                      <li><button type="button" class="btn btn-primary btn-round scholarshipButton"><img src="images/scholarship.png" style="width: 75%"></button><p>Why Software?</p></li>
+                      <li><button type="button" class="btn btn-primary btn-round cvButton"><img src="images/cv.png" style="width: 75%"></button><p>CV</p></li>
+                    </ul>
+
+
+                </div>
+
+                      <!-- ===============Email Form Section================= -->
+                      <div class="row">
+
+                        <div class="col-md-4"></div>
+                        <div ng-controller="projectTechController" class="col-xs-12 col-md-4 form-horizontal contactForm" style="display: none">
+
+                          <form id="emailForm" name="emailForm" ng-submit="sendEmail()" class="emailForm col-xs-12 col-md-12" novalidate>
+
+                            <input class="form-control" type="text" name="formName" ng-minlength="1" ng-model="formName" value="" placeholder="Name" required>
+                            <span ng-show="emailForm.formName.$touched && emailForm.myName.$invalid"> Name is required.</span>
+                            <br>
+
+                            <input class="form-control" type="email" name="formEmail" ng-model="formEmail" value="" placeholder="Email address" required>
+                            <span style="color:red" ng-show="emailForm.formEmail.$dirty && emailForm.formEmail.$invalid">
+                            <span style="color:red" ng-show="emailForm.formEmail.$touched && emailForm.formEmail.$error.required">Email is required!</span>
+                            <span ng-show="emailForm.formEmail.$touched && emailForm.formEmail.$error.email">Please enter a valid email address!</span>
+                            </span>
+                            <br>
+
+                            <input class="form-control" type="text" name="formSubject" ng-model="formSubject" value="" placeholder="Subject">
+                            <br>
+
+                            <textarea class="form-control"name="formMessage" ng-model="formMessage" rows="5" cols="60" placeholder="Message" ng-minlength="1" required></textarea>
+                            <span style="color:red" ng-show="emailForm.formMessage.$touched && emailForm.formMessage.$error.required">Please be sure to type a message before sending!</span>
+                            <br>
+
+                                  <!-- <div ng-messages="emailForm.formEmail.$error" style="color:maroon" role="alert">
+                                  <div ng-message="required">Please enter an email address</div> -->
+
+                                  <!-- </div> -->
+
+                            <button style="margin: auto" type="submit" class="form-control">Send</button>
+
+                          </form>
+
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+
+    					</div>
+
+              <!-- ===============Projects Section================= -->
+
+    					  	<div ng-controller="projectTechController" class="projects" style="display: none">
+                    <div class="col-md-3"></div>
+
+                    <div class="col-sm-12 col-xs-12 col-md-6">
+                    <table class="table tablekj">
+                      <tbody>
+                        <tr>
+                          <th style="text-align:center">Project</th>
+                          <th style="text-align:center">Technologies</th>
+                          <th style="text-align:center">Description</th>
+                          <!-- <th style="text-align:center">Github</th> -->
+                          <th> </th>
+                        </tr>
+                        <tr>
+                          <td><a href="http://www.kwamejohnson.com">kwamejohnson.com</a></td>
+                          <td><i>JavaScript, Angular, Bootstrap, JQuery</i></td>
+                          <td>Portfolio website</td>
+                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td>PolyGlotty.com</td>
+                          <td><i>Full-Stack MEAN/JavaScript (Mongo, Express, NodeJS, Angular)</i></td>
+                          <td>Programming concepts across multiple languages</td>
+                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td>MorulaMed.com</td>
+                          <td><i>Python, Django</i></td>
+                          <td>Bio-tech, med-tech, and health-tech startups</td>
+                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td>MovieKangaroo.com</td>
+                          <td><i>JavaScript, d3, Web-Scraping</i></td>
+                          <td>Movie hopping made easy</td>
+                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td>kwoding.com</td>
+                          <td><i>Ruby on Rails</i></td>
+                          <td>Blog covering my coding journey</td>
+                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td>KlinicalTrials.com</td>
+                          <td><i>Python, Web Scraping</i></td>
+                          <td>Clinical Trial Search Portal in simple English</td>
+                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td>clearbuoyant.com</td>
+                          <td><i>C#, ASP .NET</i></td>
+                          <td>Technology Company Website</td>
+                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div class="col-md-3"></div>
+
+    					  	</div>
+
+
+                  <!-- ===============Scholarship Essay Section================= -->
+
+
+                        <div class="scholarship" style="display: none">
+
+                          <div class="col-md-3"></div>
+                          <div class="col-md-6">
+
+
+                          <h4 style="text-align: center">Impact Scholarship Grand Prize (~$14K) Winning Essay</h4>
+                          <h5 style="text-align: center">(Coding Dojo Full-Stack Web-Development Bootcamp)</h5>
+                          <p style="text-align:center">___________________</p>
+
+                          <h5><i>The Impact Scholarship is intended for aspiring developers who want to learn coding to inspire significant change in their own lives or the lives of others. This highly competitive scholarship is provided to one student per cohort.</i></h5>
+                          <p style="text-align:center">___________________</p>
+
+                          <p>Many people express surprise when they learn that I went through the arduous and expensive investment of obtaining an M.D. only to decide against working directly with patients. As a medical editor, I have been able to leverage my education, but I have not yet fully honored the personal sacrifice it took to graduate from Duke Med by having the kind of impact on society that I intended.</p>
+
+                          <p>The world’s best medical research teams and med tech/biotech companies will increasingly require experts who can seamlessly navigate the worlds of software development and clinical science, eliminating the need for “translation” between medical researchers and the engineers who write the code. I want to be that missing link, and being awarded an Impact Scholarship will help remove a huge financial barrier that would otherwise hinder my developing what I believe will be a valued and sought after skill-set intersecting software and medicine.</p>
+
+                          <p>Every single human disease, from Alzheimer’s to cancer to malaria, occurs at the molecular level within cells. Because the molecular pathways of most diseases are incredibly complex, identifying the aberrant processes and effectively intervening to prevent or treat disease is inherently difficult. Additionally, the need for therapies that are specifically tailored to individual patients is becoming increasingly crucial because of the subtle genetic and molecular nuances between individuals. Instead of continuing to be peripherally involved in med tech and biotech advances aimed at addressing these issues (eg, through learning about the startups in the Google Ventures Life Sciences portfolio, working on marketing campaigns for novel urine-based cancer diagnostics, or coordinating the Healthcare/Life Sciences track in the Duke Startup Challenge Business Plan competition), the programming expertise I will begin developing at Coding Dojo will allow me to more directly work on some of the most important advances in healthcare. This is what I was meant to do.</p>
+
+                          <p>Watching helplessly as my grandmother was taken from us too soon by the ravaging effects of Alzheimer’s, I was motivated to pursue medicine.  Now, as my mom is beginning to exhibit early signs of this unforgiving disease, I think about the lack of any truly effective treatment, despite decades of biomedical investigation and billions of research dollars. Turning the tide against this disease and accelerating the pace of discoveries will require the development of bioinformatics methodologies; these include software tools and computational approaches that will lead to treatments that actually target the toxic proteins and restore cognitive function. I intend to develop the skills necessary to effectively contribute to these efforts in the hope that diseases like Alzheimer’s can be cured or at least effectively treated through software-based advances.</p>
+
+                          <p>Completing the Coding Dojo bootcamp will have a significant personal impact on me, by allowing me to work on software solutions that will enhance our understanding of complex diseases and lead to effective treatments. In studying medicine, I particularly enjoyed determining the specific location of a brain lesion based on neurological symptoms, an exercise that most med students hated. Similarly, as I have begun learning how software programs work, I find myself completely engrossed in coding challenges. I enjoy a true sense of accomplishment from searching through lines of code to find the specific syntax or logic error that's preventing my code from running; this is likely a reflection of the unique personality traits that also lent themselves to my medical editing career, where precision and accuracy are paramount. Most important, however, is the fact that my future career as a software developer in healthcare has the potential to positively impact the health and well being of millions of patients. That is an exciting prospect.</p>
+                          <br>
+                          <br>
+                          <br>
+                        </div>
+                        <div class="col-md-3"></div>
+                        </div>
+
+                        <!-- ===============About Me Section================= -->
+
+                        <div class="aboutMe" style="display: none">
+
+                          <div class="col-md-3"></div>
+                          <div class="col-md-6 ">
+
+
+                          <h4 style="text-align: center">About Me</h4>
+
+                          <b><u><p style="text-align: center">Born and raised in Trinidad &amp Tobago</p></u></b>
+                          <p>I spent the first 18 years of my life in my native T&ampT. I attended Presentation College in San Fernando (Pres), one of the most respected highschools in the country, where I enjoyed both academic and extra-curricular success. While consistently performing in the top 5% of students academically for most of my highschool career, I also represented my highschool/the T&ampT National Team in several sports (football, cricket, squash, etc) and developed into a leader. I was captain of the National Jr Squash team and was nominated in '98 for the WITCO National Sportsman of the Year Award. Based on my track record of academic excellence, demonstrated leadership, and all-round success, I was awarded a full academic scholarship to attend college in the US.</p>
+
+                          <p>During these years, I developed a deep fascination with understanding how complex systems work. Because it is one of the most complex systems, I gravitated towards the human body with aspirations to study medicine and neuroscience. Coming of age during the rise of the dot coms in the '90's also inspired an interest in technology, particularly bio-tech and med-tech.</p>
+                          <!-- <p style="text-align:center">_____________________</p> -->
+                          <br>
+                          <b><u><p style="text-align: center">Moved to Atlanta to attend Morehouse College as a pre-medical student</p></u></b>
+                          <p>At Morehouse, I studied Biology with a concentration in Neuroscience and won research fellowships and research assistantships at Duke University, University of Pittsburgh, Emory University, Morehouse School of Medicine and University of Manchester, UK. As part of the Honors Program with an intense schedule of extrememly demanding classes as well as volunteer and other extra-curricular activities, I maintained a GPA above 3.75 for most of my undergraduate career.</p>
+
+                          <p>Based on my academic and overall performance as a pre-med student I was accepted to several top-tier medical schools, including Yale, Baylor, and Duke, and I ultimately matriculated at Duke University School of Medicine</p>
+                          <!-- <p style="text-align:center">_____________________</p> -->
+                          <br>
+                          <b><u><p style="text-align: center">Graduated with a Doctor of Medicine (M.D.) degree from Duke University School of Medicine</p></u></b>
+                          <p>After undergrad, I attended Duke for medical school. There, I earned high-pass or honors in almost every clinical course and won a $25K 3rd Year Thesis Scholarship for research on free-radical brain injury after stroke. I also served as Co-President of the Duke Chapter of the SNMA (Student National Medical Association) and led the organization to a Student Organization of the Year Award. </p>
+                          <p>I served as the Healthcare/Life Sciences Track lead of the Duke StartUp Challenge Elevator Pitch/Business Plan competition and was subsequently a Judge as well. These experiences contnued to fuel my interest in entrepreneurship and technology.</p>
+                          <!-- <p style="text-align:center">_____________________</p> -->
+                          <br>
+                          <b><u><p style="text-align: center">After Medical School</p></u></b>
+                          <p>After Duke, I worked in both clinical research and basic science research related to brain injury before pursuing a career as a bio-medical/clinical editor in academic publishing and then healthcare advertising.</p>
+                          <p>From early 2015, I started teaching myself programming using various online resources and books. Because I enjoyed these educational forays more than my professional job, I began considering options for a career change.</p>
+                          <!-- <p style="text-align:center">_____________________</p> -->
+                          <br>
+                          <b><u><p style="text-align: center">Software Engineering</p></u></b>
+                          <p>I identified Coding Dojo as my software engineering boot-camp of choice because it was one of a handful that taught Python (relevant for hard science applications and machine learning) and because the 1000+ hr curriculum would have allowed me to become a polyglot programmer while learning the basics of computer science fundamentals in a matter of months. I applied for and won their Impact Scholarship Grand Prize, which covered 90% of the tuition. My scholarship essay <i>(see Why Software)</i> describes my deep motivations for my career change and outlines the general vision for my career.</p>
+                          <p>In the months following graduation from the coding bootcamp, I continued deepening my coding skills and was selected as one of 22 participants (from almost 400 applications nationwide) in the Microsoft LEAP Software Engineering Apprenticeship Program. The program consists of a classroom-based portion that covers computer science and programming fundamentals as well as an apprenticeship with a Microsoft product team (I am part of the Microsoft Bing iOS Team)</p>
+                          <!-- <p style="text-align:center">_____________________</p> -->
+                          <br>
+                          <b><u><p style="text-align: center">Future Career</p></u></b>
+                          <p>My immediate goal following the LEAP program is to work as a Software Engineer in a role that provides ample opportunities for growth as an engineer while writing code for products that improve lives.</p>
+                          <br>
+                          <br>
+                          <br>
+
+                        </div>
+                        <div class="col-md-3"></div>
+                        </div>
+
+
+                        <!-- ===============CV Section================= -->
+                        <div class="cv" style="display: none">
+
+                          <div class="col-md-2"></div>
+
+                          <div class="col-md-8">
+
+                            <iframe src="https://drive.google.com/file/d/0B1NVODWxsK33WkF6MlBOWXlqcGM/preview" width="100%" height="450px"></iframe>
+                          </div>
+
+                          <div class="col-md-2"></div>
+
+                        </div>
+
+                        <!-- ===============Technologies Section================= -->
+
+                  <!-- <div style="margin-top: 0; margin-left: 0px" class="row">
+                    <div class="col-md-4 col-sm-4"></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 technologies" style="display: none"> -->
+
+      				  			<!-- <div>
+                        <ul class="col-xs-6">
+        						      	<li><button type="button" class="btn btn-primary btn-round"><img src="images/languages.png" style="width: 75px"></button><p>Language</p></li>
+        						        <li><button type="button" class="btn btn-primary btn-round"><img src="images/frameworks.png" style="width: 70px"></button><p>Frameworks</p></li>
+        						        <li><button type="button" class="btn btn-primary btn-round"><img src="images/database.png" style="width: 75px"></button><p>Databases</p></li>
+                            <li><button type="button" class="btn btn-primary btn-round"><img src="images/database.png" style="width: 75px"></button><p>Databases</p></li>
+                            <li><button type="button" class="btn btn-primary btn-round"><img src="images/misc.png" style="width: 75px"></button><p>Miscellaneous</p></li>
+        						    </ul>
+      				  			</div> -->
+
+      						    <!-- <div>
+                        <ul class="col-xs-6">
+        						        <li><button type="button" class="btn btn-primary btn-round"><img src="images/html.png" style="width: 75px"></button><p>HTML</p></li>
+        						        <li><button type="button" class="btn btn-primary btn-round"><img src="images/css.png" style="width: 75px"></button><p>CSS</p></li>
+        						        <li><button type="button" class="btn btn-primary btn-round"><img src="images/MEAN2.png" style="width: 75px"></button><p>MEAN</p></li>
+        				        	</ul>
+      						    </div> -->
+
+
+      					  	<!-- </div>
+                    <div class="col-md-4 col-sm-4"></div> -->
+
+
+                  <!-- </div> -->
+
+    				  	</div>
+    		  	</div>
+    		 </div>
+    	</div>
+
+      <!-- ===============Footer Section================= -->
+
+    		<div class="container-fluid">
+    			<div style="margin-left: 0px" class="row">
+    				<div class="col-xs-12 col-sm-12 col-md-12">
+    					<div class="buttonsFooter">
+    						    <ul>
+                      <li><div id="aboutButton" class="btn btn-primary btn-round"><img src="images/about.png" style="width: 100%"></div><p>About</p></li>
+    					      	<li><div id="technologiesButton"  class="btn btn-primary btn-round"><img src="images/technologies11.png" style="width: 100%"></div><p>Technologies</p></li>
+    					        <li><div id="projectsButton"  class="btn btn-primary btn-round"><img src="images/projects.png" style="width: 100%"></div><p>Projects</p></li>
+    					        <li><div id="bucketlistButton" class="btn btn-primary btn-round"><img src="images/bucketlist.png" style="width: 100%"></div><p>Bucketlist</p></li>
+                      <li><div id="connectButton" class="btn btn-primary btn-round"><img src="images/connect.png" style="width: 100%"></div><p>Connect</p></li>
+    				        </ul>
+    			    </div>
+    				</div>
+    			</div>
+    		</div>
+
+
+<!-- ==============Footer Buttons================ -->
+
+<!-- when each button is clicked, hide all content and then show the clicked button's content -->
+
+<!-- ___________ABOUT___________-->
+<script type="text/javascript">
+    $("#aboutButton").click(function(){
+      hideAll();$(".aboutMenu").toggle();
+    })
+</script>
+<!-- ___________TECHNOLOGIES___________-->
+<script type="text/javascript">
+    $("#technologiesButton").click(function(){
+      hideAll();$(".technologies").show();
+    })
+</script>
+<!-- ___________PROJECTS___________-->
+<script type="text/javascript">
+    $("#projectsButton").click(function(){
+      hideAll();$(".projects").show();
+    })
+</script>
+<!-- ___________BUCKETLIST___________-->
+<script type="text/javascript">
+  $("#bucketlistButton").click(function(){
+  hideAll();$(".bucketlist").show();
+  })
+</script>
+<!-- ___________CONNECT___________-->
+<script type="text/javascript">
+    $("#connectButton").click(function(){
+    hideAll();$(".connect").show();
+  })
+</script>
+
+<!-- when the intersecting circles are clicked, show the aboutMenu-->
+<script type="text/javascript">
+    $(".venn").click(function(){
+      hideAll();$(".aboutMenu").show();
+    })
+</script>
+
+<!-- ==============Connect Section Buttons================ -->
+
+<script type="text/javascript">
+    $(".email").click(function(){
+      console.log("email dot clicked");
+      $(".contactForm").toggle();
+    })
+</script>
+
+<!-- ==============Career Highlights Section Buttons================ -->
+
+<!-- ___________Microsoft LEAP___________-->
+<script type="text/javascript">
+    $(".msLEAPDot").click(function(){
+      console.log("MS dot clicked");
+      $(".msLEAP").toggle();
+    })
+</script>
+
+<!-- ___________Coding Dojo___________-->
+<script type="text/javascript">
+    $(".CodingDojoDot").click(function(){
+      console.log("Dojo dot clicked");
+      $(".CodingDojo").toggle();
+    })
+</script>
+
+<!-- ___________Palio___________-->
+<script type="text/javascript">
+    $(".palioDot").click(function(){
+      console.log("palio dot clicked");
+      $(".palio").toggle();
+    })
+</script>
+
+<!-- ___________AJE__________-->
+<script type="text/javascript">
+    $(".ajeDot").click(function(){
+      console.log("aje dot clicked");
+      $(".aje").toggle();
+    })
+</script>
+
+<!-- ___________Duke___________-->
+<script type="text/javascript">
+    $(".dukeDot").click(function(){
+      console.log("duke dot clicked");
+      $(".duke").toggle();
+    })
+</script>
+
+<!-- ___________Morehouse___________-->
+<script type="text/javascript">
+    $(".morehouseDot").click(function(){
+      console.log("Morehouse dot clicked");
+      $(".morehouse").toggle();
+    })
+</script>
+
+<!-- ==============About Section Buttons================ -->
+
+<!-- ___________Career Highlights___________-->
+
+<script type="text/javascript">
+    $(".careerHighsButton").click(function(){
+      console.log("career dot clicked");
+      $(".careerHighlights").toggle();$(".aboutMenu").hide();
+    })
+</script>
+
+<!-- ___________Scholarship___________-->
+<script type="text/javascript">
+    $(".scholarshipButton").click(function(){
+      console.log("scholarship dot clicked");
+      $(".scholarship").toggle();$(".aboutMenu").hide();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".scholarship").click(function(){
+      console.log("scholarship clicked");
+      $(".scholarship").toggle();$(".aboutMenu").show();
+    })
+</script>
+
+<!-- ___________About Me___________-->
+<script type="text/javascript">
+    $(".aboutMeButton").click(function(){
+      console.log("scholarship dot clicked");
+      $(".aboutMe").toggle();$(".aboutMenu").hide();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".aboutMe").click(function(){
+      console.log("aboutme clicked");
+      $(".aboutMe").toggle();$(".aboutMenu").show();
+    })
+</script>
+
+
+<!-- ___________CV___________-->
+<script type="text/javascript">
+    $(".cvButton").click(function(){
+      console.log("scholarship dot clicked");
+      $(".cv").toggle();$(".aboutMenu").hide();
+      // $( this ).append('<text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="2px" dy=".3em">Coding Coooooooding!</text>');
+    })
+</script>
+
+<script type="text/javascript">
+    $(".cv").click(function(){
+      console.log("cv clicked");
+      $(".cv").toggle();$(".aboutMenu").show();
+    })
+</script>
+
+<!-- ==============Technologies Section Buttons================ -->
+
+
+<script type="text/javascript">
+    $(".languagesButton").click(function(){
+      console.log("languages button clicked");
+      $(".languages").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".frameworksButton").click(function(){
+      console.log("frameworks button clicked");
+      $(".frameworks").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".serversButton").click(function(){
+      console.log("servers button clicked");
+      $(".servers").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".databasesButton").click(function(){
+      console.log("databases button clicked");
+      $(".databases").toggle();
+    })
+</script>
+
+<!-- ==============Bucketlist Section Buttons================ -->
+
+
+<script type="text/javascript">
+    $(".readButton").click(function(){
+      console.log("read button clicked");
+      $(".read").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".read").click(function(){
+      console.log("cv clicked");
+      $(".read").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".learnButton").click(function(){
+      console.log("read button clicked");
+      $(".learn").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".learn").click(function(){
+      console.log("cv clicked");
+      $(".learn").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".goButton").click(function(){
+      console.log("read button clicked");
+      $(".go").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".go").click(function(){
+      console.log("cv clicked");
+      $(".go").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".meetButton").click(function(){
+      console.log("read button clicked");
+      $(".meet").toggle();
+    })
+</script>
+
+<script type="text/javascript">
+    $(".meet").click(function(){
+      console.log("cv clicked");
+      $(".meet").toggle();
+    })
+</script>
+
+<!-- =================== -->
+
+
+
+</body>

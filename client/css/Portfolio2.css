@@ -1,0 +1,23 @@
+
+
+*{
+  font-family: sans-serif;
+}
+div{
+  border: 1px green solid;
+
+}
+body{
+  background-color: #162344;
+}
+ul{
+  list-style: none;
+}
+h2, h3, h4{
+  color: #AFAAAA;
+}
+.header{
+  /*width: 75%;*/
+  margin: auto;
+  display: inline;
+}
