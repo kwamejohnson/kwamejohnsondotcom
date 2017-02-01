@@ -62,17 +62,36 @@
 
                       <!-- ===============Header Image================= -->
                       <div class="col-xs-4 col-md-1 col-sm-2 centerK" >
-                            <img onClick="history.go(0)" src="images/headshot2.png" style="width: 100%" align="right">
+                            <img onClick="history.go(0)" src="images/headshot2.png" style="padding-left: 20; width: 100%" align="right">
                       </div>
 
                       <!-- ===============Header Text================= -->
-                      <div onClick="history.go(0)" id="header" class="col-xs-8 col-md-8 col-sm-8 centerK">
-                        <ul >
-            							<li><h3 style="text-align: left" onClick="history.go(0)">Kwame Johnson, M.D.</h3></li>
+                      <div onClick="history.go(0)" id="header" class="col-xs-8 col-md-5 col-sm-8">
+                        <ul>
+            							<li><h3 onClick="history.go(0)">Kwame Johnson, M.D.</h3></li>
                           <li><h3 onClick="history.go(0)">Software Engineer</h3></li>
             							<li><h4 onClick="history.go(0)">life at the <b><u>intersection</u></b> of <b>bio-medicine</b> &amp <b>software</b></h4></li>
             						</ul>
                       </div>
+
+                      <!-- ===============Header Image================= -->
+                      <!-- <div class="col-xs-4 col-md-6 col-sm-2 headerKJ" >
+                        <div>
+                          <img onClick="history.go(0)" src="images/headshot2.png" style="width: 20%" >
+
+                        </div> -->
+
+                      <!-- ===============Header Text================= -->
+
+                        <!-- <ul >
+                          <li><h3 onClick="history.go(0)">Kwame Johnson, M.D.</h3></li>
+                          <li><h3 onClick="history.go(0)">Software Engineer</h3></li>
+                          <li><h4 onClick="history.go(0)">life at the <b><u>intersection</u></b> of <b>bio-medicine</b> &amp <b>software</b></h4></li>
+                        </ul>
+                      </div> -->
+
+                      <div class="col-md-3 col-sm-2"></div>
+
 
           			</div>
 
@@ -96,9 +115,10 @@
                       <!-- ===============Intersecting Circles Section================= -->
 
                       <div class="venn">
-                          <video width="85%" height="85%" autoplay loop>
+                          <!-- <video width="85%" height="85%" autoplay loop>
                             <source src="images/venn.mov" type="video/mp4">
-                          </video>
+                          </video> -->
+                          <img src="images/venn2.png" alt="venn" style="width: 85%; height: 85%">
                       </div>
 
                     </div>
@@ -351,7 +371,7 @@
                                     <th style="text-align: center">Status</th>
                                   </tr>
                                   <tr ng-repeat="book in read">
-                                    <td>{{ book.title }}</td>
+                                    <td>{{ book.name }}</td>
                                     <!-- <td>{{ book.status }}</td> -->
                                     <td><img ng-src="{{ book.status }}"></td>
                                   </tr>
@@ -385,9 +405,9 @@
                                     <th style="text-align: center">Status</th>
                                   </tr>
                                   <tr ng-repeat="item in learn">
-                                    <td>{{ item.title }}</td>
+                                    <td>{{ item.name }}</td>
                                     <!-- <td>{{ book.status }}</td> -->
-                                    <td><img ng-src="{{ item.status }}"></td>
+                                    <td><img ng-src="{{ item.status }}" title="{{ item.title }}"></td>
                                   </tr>
                                 </table>
                                 <br>
@@ -417,9 +437,9 @@
                                     <th style="text-align: center">Status</th>
                                   </tr>
                                   <tr ng-repeat="event in go">
-                                    <td>{{ event.title }}</td>
+                                    <td>{{ event.name }}</td>
                                     <!-- <td>{{ book.status }}</td> -->
-                                    <td><img ng-src="{{ event.status }}"></td>
+                                    <td><img ng-src="{{ event.status }}" title="{{ item.title }}"></td>
                                   </tr>
                                 </table>
                                 <br>
@@ -449,9 +469,9 @@
                                     <th style="text-align: center">Status</th>
                                   </tr>
                                   <tr ng-repeat="person in meet">
-                                    <td>{{ person.title }}</td>
+                                    <td>{{ person.name }}</td>
                                     <!-- <td>{{ book.status }}</td> -->
-                                    <td><img ng-src="{{ person.status }}"></td>
+                                    <td><img ng-src="{{ person.status }}" title="{{ item.title }}"></td>
                                   </tr>
                                 </table>
                                 <br>
@@ -539,44 +559,62 @@
                         <tr>
                           <td><a href="http://www.kwamejohnson.com">kwamejohnson.com</a></td>
                           <td><i>JavaScript, Angular, Bootstrap, JQuery</i></td>
-                          <td>Portfolio website</td>
-                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                          <td>Portfolio Website</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
                         </tr>
                         <tr>
-                          <td>PolyGlotty.com</td>
-                          <td><i>Full-Stack MEAN/JavaScript (Mongo, Express, NodeJS, Angular)</i></td>
-                          <td>Programming concepts across multiple languages</td>
-                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                          <td><a href="http://www.PolyGlotty.com">PolyGlotty.com</a></td>
+                          <td><i>Full-Stack JavaScript (Mongo, Express, NodeJS, Angular)</i></td>
+                          <td>Programming Concepts Across Multiple Languages</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
                         </tr>
                         <tr>
-                          <td>MorulaMed.com</td>
+                          <td><a href="http://www.MorulaMed.com">MorulaMed.com</a></td>
                           <td><i>Python, Django</i></td>
-                          <td>Bio-tech, med-tech, and health-tech startups</td>
-                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                          <td>Bio-tech, Med-tech, and Health-tech Startups</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
                         </tr>
                         <tr>
-                          <td>MovieKangaroo.com</td>
+                          <td><a href="http://www.MovieKangaroo.com">MovieKangaroo.com</a></td>
                           <td><i>JavaScript, d3, Web-Scraping</i></td>
-                          <td>Movie hopping made easy</td>
-                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                          <td>Movie Hopping Made Easy</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
                         </tr>
                         <tr>
-                          <td>kwoding.com</td>
-                          <td><i>Ruby on Rails</i></td>
-                          <td>Blog covering my coding journey</td>
-                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                          <td><a href="http://www.pr8dict.com">PR8DICT</a></td>
+                          <td><i>iOS/Swift</i></td>
+                          <td>iOS App</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
                         </tr>
                         <tr>
-                          <td>KlinicalTrials.com</td>
+                          <td><a href="http://www.KlinicalTrials.com">KlinicalTrials.com</a></td>
                           <td><i>Python, Web Scraping</i></td>
-                          <td>Clinical Trial Search Portal in simple English</td>
-                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                          <td>Clinical Trial Search Portal (in simple English)</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
                         </tr>
                         <tr>
-                          <td>clearbuoyant.com</td>
+                          <td><a href="http://www.otherskeeper.com">Other's Keeper</a></td>
+                          <td><i>Full-Stack MEAN/JavaScript (Mongo, Express, NodeJS, Angular)</i></td>
+                          <td>Mental Health Resources for Minority and Marginalized Groups</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td><a href="http://www.clearbuoyant.com">Clearbuoyant</a></td>
                           <td><i>C#, ASP .NET</i></td>
                           <td>Technology Company Website</td>
-                          <td><a href="https://github.com/kwamejohnson/portf"><img src="images/github1.png" alt=""></a></td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td><a href="http://www.devscalpel.com">Dev Scalpel</a></td>
+                          <td><i>Full-Stack JavaScript (Mongo, Express, NodeJS, Angular)</i></td>
+                          <td>Dissecting Code for Deeper Understanding</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
+                        </tr>
+                        <tr>
+                          <td><a href="http://www.verumself.com">Verum Self</a></td>
+                          <td><i>iOS/Swift</i></td>
+                          <td>iOS App</td>
+                          <td><a href="https://github.com/kwamejohnson"><img src="images/github1.png" alt=""></a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -723,13 +761,25 @@
     			<div style="margin-left: 0px" class="row">
     				<div class="col-xs-12 col-sm-12 col-md-12">
     					<div class="buttonsFooter">
-    						    <ul>
-                      <li><div id="aboutButton" class="btn btn-primary btn-round"><img src="images/about.png" style="width: 100%"></div><p>About</p></li>
-    					      	<li><div id="technologiesButton"  class="btn btn-primary btn-round"><img src="images/technologies11.png" style="width: 100%"></div><p>Technologies</p></li>
-    					        <li><div id="projectsButton"  class="btn btn-primary btn-round"><img src="images/projects.png" style="width: 100%"></div><p>Projects</p></li>
-    					        <li><div id="bucketlistButton" class="btn btn-primary btn-round"><img src="images/bucketlist.png" style="width: 100%"></div><p>Bucketlist</p></li>
-                      <li><div id="connectButton" class="btn btn-primary btn-round"><img src="images/connect.png" style="width: 100%"></div><p>Connect</p></li>
-    				        </ul>
+
+                    <div class="row">
+
+                      <div class="col-md-2"></div>
+
+                      <div class="col-md-8">
+                        <div class=""></div>
+                        <ul>
+                          <li><div id="aboutButton" class="col-md-1 btn btn-primary btn-round"><img src="images/about.png" style="width: 100%"></div><p>About</p></li>
+        					      	<li><div id="technologiesButton"  class="btn btn-primary btn-round"><img src="images/technologies11.png" style="width: 100%"></div><p>Technologies</p></li>
+        					        <li><div id="projectsButton"  class="btn btn-primary btn-round"><img src="images/projects.png" style="width: 100%"></div><p>Projects</p></li>
+        					        <li><div id="bucketlistButton" class="btn btn-primary btn-round"><img src="images/bucketlist.png" style="width: 100%"></div><p>Bucketlist</p></li>
+                          <li><div id="connectButton" class="btn btn-primary btn-round"><img src="images/connect.png" style="width: 100%"></div><p>Connect</p></li>
+        				        </ul>
+                      </div>
+
+                      <div class="col-md-2"></div>
+
+                    </div>
     			    </div>
     				</div>
     			</div>
