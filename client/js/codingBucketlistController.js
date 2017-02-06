@@ -3,15 +3,15 @@ app.controller('codingBucketlistController', ['$scope', function($scope){
 console.log("in codingBucketlistController");
 
 $scope.read = [
-                { "name" : "Clean Code by Robert C. Martin", "status" : "images/inprog.png", "title" : "in progress"},
-                { "name" : "Programming Pearls by Jon Bentley", "status": "images/future.png", "title" : "future" },
-                { "name" : "The Innovators by Walter Isaacson", "status": "images/check3.png", "title" : "completed" },
-                { "name" : "Cracking the Coding Interview by Gayle Laakmann McDowell" ,"status" : "images/inprog.png", "title" : "in progress" },
-                { "name" : "Soft Skills by John Sonmez","status" : "images/inprog.png", "title" : "in progress" },
-                { "name" : "Zero Bugs and Program Faster by Kate Thompson","status" : "images/future.png", "title" : "future" },
-                { "name" : "Code Complete by Steve McConnell","status" : "images/future.png", "title" : "future" },
-                { "name" : "The Pragmatic Programmer by Hunt & Thomas","status" : "images/future.png", "title" : "future" },
-                { "name" : "Refactoring/Unit Test Patterns by Gerard Meszaros","status" : "images/future.png", "title" : "future" }
+                { "name" : "Clean Code", "author": "by Robert C. Martin", "status" : "images/inprog.png", "title" : "in progress"},
+                { "name" : "Programming Pearls", "author": " by Jon Bentley", "status": "images/future.png", "title" : "future" },
+                { "name" : "The Innovators", "author": " by Walter Isaacson", "status": "images/check3.png", "title" : "completed" },
+                { "name" : "Cracking the Coding Interview", "author": " by Gayle Laakmann McDowell" ,"status" : "images/inprog.png", "title" : "in progress" },
+                { "name" : "Soft Skills", "author": " by John Sonmez","status" : "images/inprog.png", "title" : "in progress" },
+                { "name" : "Zero Bugs and Program Faster", "author": " by Kate Thompson","status" : "images/future.png", "title" : "future" },
+                { "name" : "Code Complete", "author": " by Steve McConnell","status" : "images/future.png", "title" : "future" },
+                { "name" : "The Pragmatic Programmer", "author": " by Hunt & Thomas","status" : "images/future.png", "title" : "future" },
+                { "name" : "Refactoring/Unit Test Patterns", "author": " by Gerard Meszaros","status" : "images/future.png", "title" : "future" }
               ]
 
 $scope.learn = [

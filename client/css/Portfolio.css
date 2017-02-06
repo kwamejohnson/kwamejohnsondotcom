@@ -215,35 +215,17 @@ h4{
 }
 
 body{
-	/*background-image: url("http://i65.tinypic.com/b4z1c9.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;*/
 	background-color: #162344;
-
-	/*background-image: url("http://i65.tinypic.com/b4z1c9.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-	background-size: cover;*/
 }
-/*#F1CBA6*/
+
 .summary{
 	width: 40%;
 	margin: 0 auto;
 	color: #AFAAAA;
-
-	/*color: #162344;*/
 	display: block;
-	/*text-align: justify;*/
 
 }
-.dots{
-	/*background-image: url("http://i68.tinypic.com/2ro742f.png");*/
-	/*background-image: url("http://i64.tinypic.com/i1cg34.png");*/
-	/*background-repeat: no-repeat;
-	background-size: contain;*/
-	/*min-height: 250px;*/
-}
+
 .summary h3{
 	text-align: center;
 	font-size: 20px;
@@ -314,53 +296,6 @@ _____________________________________
     100% {background-color: rgba(152, 153, 157, .4);}
 }
 
-
-/*@-webkit-keyframes circleR
-{
-    0%   {background-color: rgba(255, 12, 30, .4);}
-    10%  {background-color: rgba(255, 12, 30, .6);}
-    20%  {background-color: rgba(255, 12, 30, .8);}
-    30%  {background-color: rgba(255, 12, 30, .9);}
-    40%  {background-color: rgba(255, 12, 30, 1);}
-    50%  {background-color: rgba(255, 12, 30, .9);}
-    60%  {background-color: rgba(255, 12, 30, .8);}
-    70%  {background-color: rgba(255, 12, 30, .7);}
-    80%  {background-color: rgba(255, 12, 30, .6);}
-    90%  {background-color: rgba(255, 12, 30, .5);}
-    100% {background-color: rgba(255, 12, 30, .4);}*/
-}
-
-/*@-webkit-keyframes dot1
-{
-    0%   {background-color: rgba(22, 35, 68, .4);}
-    10%  {background-color: rgba(22, 35, 68, .6);}
-    20%  {background-color: rgba(22, 35, 68, .8);}
-    30%  {background-color: rgba(22, 35, 68, .9);}
-    40%  {background-color: rgba(22, 35, 68, 1.0);}
-    50%  {background-color: rgba(22, 35, 68, .9);}
-    60%  {background-color: rgba(22, 35, 68, .8);}
-    70%  {background-color: rgba(22, 35, 68, .7);}
-    80%  {background-color: rgba(22, 35, 68, .6);}
-    90%  {background-color: rgba(22, 35, 68, .5);}
-    100% {background-color: rgba(22, 35, 68, .4);}
-}
-
-@-webkit-keyframes dot2
-{
-    0%   {background-color: rgba(255, 12, 30, .4);}
-    10%  {background-color: rgba(255, 12, 30, .6);}
-    20%  {background-color: rgba(255, 12, 30, .8);}
-    30%  {background-color: rgba(255, 12, 30, .9);}
-    40%  {background-color: rgba(255, 12, 30, 1.0);}
-    50%  {background-color: rgba(255, 12, 30, .9);}
-    60%  {background-color: rgba(255, 12, 30, .8);}
-    70%  {background-color: rgba(255, 12, 30, .7);}
-    80%  {background-color: rgba(255, 12, 30, .6);}
-    90%  {background-color: rgba(255, 12, 30, .5);}
-    100% {background-color: rgba(255, 12, 30, .4);}
-}*/
-
-
 .dot
 {
     position: absolute;
@@ -420,14 +355,7 @@ _____________________________________
 .main.row{
 	min-height: 500px;
 }
-/*.header{
-	position: fixed;
-}*/
-.container
-{
-/*    width: 100%;
-    height: 50%;*/
-}
+
 .btn{
 	padding-top: 15px;
 	font-size: 18px;
@@ -449,8 +377,6 @@ button p{
 .bucketlist p{
 	color: #AFAAAA;
 }
-
-
 
 body{
 	height: 900px;
@@ -623,7 +549,3 @@ form .btn{
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-/*_____________________________________
-_____________________________________
-_____________________________________
-*/

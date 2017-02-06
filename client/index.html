@@ -371,8 +371,7 @@
                                     <th style="text-align: center">Status</th>
                                   </tr>
                                   <tr ng-repeat="book in read">
-                                    <td>{{ book.name }}</td>
-                                    <!-- <td>{{ book.status }}</td> -->
+                                    <td><b>{{ book.name }}</b> <i>{{ book.author }}</i></td>          
                                     <td><img ng-src="{{ book.status }}"></td>
                                   </tr>
 
